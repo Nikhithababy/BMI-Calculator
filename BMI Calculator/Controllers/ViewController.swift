@@ -14,7 +14,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    
+    @IBAction func Heightchanged(_ sender: UISlider) {
+       print (sender.value)
+    }
+    
+    @IBAction func Weightchaned(_ sender: UISlider) {
+        print(sender.value)
+    }
+    
 }
 
